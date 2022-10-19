@@ -9,4 +9,4 @@ In the above, the annotation at the end of the sentence i.e., @1@y   indicates w
 ## How to set up environment
 
 
-Download British National Corpus, XML version from [internet](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2554) and extract the zip package so that the Texts-folder is in path _'BCN/Texts'_.
+Download British National Corpus, XML version from [internet](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2554) and extract the zip package so that the Texts-folder is in path _'BNC/Texts'_.
