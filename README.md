@@ -10,3 +10,9 @@ In the above, the annotation at the end of the sentence i.e., @1@y   indicates w
 
 
 Download British National Corpus, XML version from [internet](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2554) and extract the zip package so that the Texts-folder is in path _'BNC/Texts'_.
+
+Download Wordnet based categorization dictionary [here](https://provalisresearch.com/products/content-analysis-software/wordstat-dictionary/wordnet-based-categorization-dictionary/) and extract the WordNet2.zip and move the folder to same folder with the notebooks.
+
+Install any missing Python modules using pip (we will make requirements.txt if we remember)
+
+For nltk we are using some additional assests. Launch GUI with nltk.download() to download missing assests. (List will be made here.)
