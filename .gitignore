@@ -3,3 +3,6 @@ BNC
 WordNet2
 *.pkl
 type1_metaphor_annotated.txt
+WordNet2.0
+Domains
+.idea
