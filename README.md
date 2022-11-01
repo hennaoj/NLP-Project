@@ -6,13 +6,17 @@ In the above, the annotation at the end of the sentence i.e., @1@y   indicates w
 
 
 
-## How to set up environment
+## How to set up the environment:
 
 
-Download British National Corpus, XML version from [internet](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2554) and extract the zip package so that the Texts-folder is in path _'BNC/Texts'_.
+1. Download British National Corpus, XML version from [internet](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2554) and extract the zip package so that the Texts-folder is in path _'BNC/Texts'_.
 
-Download Wordnet based categorization dictionary [here](https://provalisresearch.com/products/content-analysis-software/wordstat-dictionary/wordnet-based-categorization-dictionary/) and extract the WordNet2.zip and move the folder to same folder with the notebooks.
+2. Download Wordnet based categorization dictionary [here](https://provalisresearch.com/products/content-analysis-software/wordstat-dictionary/wordnet-based-categorization-dictionary/) and extract the WordNet2.zip and move the folder to same folder with the notebooks. Rename 'WordNet Words.CAT' to 'Words.CAT'. (Path: _'WordNet2/Words.CAT'_)
 
-Install any missing Python modules using pip (we will make requirements.txt if we remember)
+3. Download Wordnet Domains 3.2 [here](https://wndomains.fbk.eu/download.html). Rename file 'wn-domains-3.2-20070223' to 'domains_2' and put it under folder 'Domains'. (Path: _'Domains/domains_2'_)
 
-For nltk we are using some additional assests. Launch GUI with nltk.download() to download missing assests. (List will be made here.)
+4. Install any missing Python modules using pip (we will make requirements.txt if we remember)
+
+5. For nltk we are using some additional assests. Launch GUI with nltk.download() to download missing assests. (List will be made here.)
+
+6. Use the BNC_dumper notebook to create .pkl files for tagged senctences and words.
