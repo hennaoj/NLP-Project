@@ -15,6 +15,8 @@ This project explores the detection of metaphors in poetry using natural languag
 
 4. Download Wordnet Domains 3.2 [here](https://wndomains.fbk.eu/download.html). Rename file 'wn-domains-3.2-20070223' to 'domains_2' and put it under folder 'Domains'. (Path: _'Domains/domains_2'_)
 
+5. Download the WordNet 2.0 version from [here](https://wordnet.princeton.edu/download/old-versions) and place the dict folder containing the noun.dat file under the folder 'WordNet2.0'. (Path: _'WordNet2.0/dict/noun.dat'_)
+
 5. Install any missing Python modules using pip (see requirements.txt)
 
 6. For [nltk](https://www.nltk.org/index.html) we are using some additional assests. Launch GUI with nltk.download() to download missing assests. (For now, download all.)
