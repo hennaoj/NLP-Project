@@ -17,13 +17,17 @@ This project explores the detection of metaphors in poetry using natural languag
 
 5. Download the WordNet 2.0 version from [here](https://wordnet.princeton.edu/download/old-versions) and place the dict folder containing the noun.dat file under the folder 'WordNet2.0'. (Path: _'WordNet2.0/dict/noun.dat'_)
 
-5. Install any missing Python modules using pip (see requirements.txt)
+6. Install any missing Python modules using pip (see requirements.txt)
 
-6. For [nltk](https://www.nltk.org/index.html) we are using some additional assests. Launch GUI with nltk.download() to download missing assests. (For now, download all.)
+7. For [nltk](https://www.nltk.org/index.html) we are using some additional assests. Launch GUI with nltk.download() to download missing assests. (For now, download all.)
 
-7. Use the BNC_dumper notebook to create .pkl files for tagged senctences and words.
-    - If you use full corpus, be prepared to have enough RAM memory on your computer, and also some time to run everything
+8. Use the BNC_dumper notebook to create .pkl files for tagged senctences and words.
+    - If you use full BNC corpus, be prepared to have enough RAM memory on your computer (32GB of RAM will be fully used)
+    - Prepare to also wait some time to run everything some notebooks may take over an hour to run on slow computers and large copurs size
 
+Example of folder contents after setting up the environment after setting up the environment. Items inside red squares should be added in after steps above.
+
+![Example of folder contents after setting up the environment](/images/example_of_folder_contents.png)
 
 ## How the sources map to structure of the paper written about the project:
 
