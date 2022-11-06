@@ -1,6 +1,6 @@
-# NLP-Project
+# NLP-Project 6: Metaphor Detection in Poetry
 
-This project explores the detection of metaphors in poetry using natural language processing, aiming to distinguish figurative and non-figurative language. The project aims to replicate the approach of Neuman et al. (2013) [Metaphor Identification in Large Texts Corpora (plos.org)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062343). The performance of the methods is measured using 
+This project explores the detection of metaphors in poetry using natural language processing, aiming to distinguish figurative and non-figurative language. The project aims to replicate the approach of Neuman et al. (2013) [Metaphor Identification in Large Texts Corpora (plos.org)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062343). The performance of the different methods are tested using an annotated metaphor dataset and measured using different metrics such as accuracy, precision and recall. Each task in the project has been implemented in its own jupyter notebook which can be ran after setting up the environment using the instructions below.
 
 
 
@@ -25,7 +25,7 @@ This project explores the detection of metaphors in poetry using natural languag
     - If you use full BNC corpus, be prepared to have enough RAM memory on your computer (32GB of RAM will be fully used)
     - Prepare to also wait some time to run everything some notebooks may take over an hour to run on slow computers and large copurs size
 
-Example of folder contents after setting up the environment after setting up the environment. Items inside red squares should be added in after steps above.
+Example of folder contents after setting up the environment. Items inside red squares should be added in after steps above.
 
 ![Example of folder contents after setting up the environment](/images/example_of_folder_contents.png)
 
